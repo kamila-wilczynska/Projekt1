@@ -4,7 +4,26 @@
 *, *::before, *::after {
     box-sizing: border-box; }
    
-   section { margin: 0; padding: 0 }
+   section { margin: 0; padding: 20px }
+
+   body {
+    font: 1rem/1.5 var(--bs-font-sans-serif);
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+
+  :root {
+    --bs-font-sans-serif: 'Bilbo Swash Caps', cursive; 
+  }
+
+  h3 {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  /* Header */ 
 
   .masthead {
     background-size: cover;
@@ -15,7 +34,9 @@
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: 5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform:uppercase
   }
 
   .color-overlay {
@@ -28,11 +49,22 @@
     .masthead {
         min-height: 30vh;
     }
-    h1 {
+    .main-title {
         font-size: calc(1.525rem + 3.3vw );
+        font-style: "Noto Color Emoji";
     }
   }
 
+  .masthead .golden {
+    color:gold;
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 1.35rem
+  }
+
+  a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.35rem
+  }
   .title {
     padding: 20%;
   }
@@ -40,14 +72,21 @@
     font-size: 50px;
     color: gold;
   }
-
+/* Portfolio */ 
   section .images {
     background-color: #adb5bd;
   }
   .color {
     background-color: #adb5bd;
   }
+  .ik {
+    font-size: 30px;
+    color: black
+  }
 
+  .second {
+    margin: 80px 20px 0px 20px;
+  }
 
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
